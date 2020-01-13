@@ -1,6 +1,7 @@
 import tensorflow as tf
 from tensorflow import keras
 
+
 class CustomNet:
     @staticmethod
     def build(height, width, depth, num_classes=None):
